@@ -313,8 +313,8 @@ a { color: inherit; }
 }
 
 .avatar {
-  width: 220px;
-  height: 220px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   overflow: hidden;
 }
