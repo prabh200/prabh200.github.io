@@ -574,7 +574,29 @@ a { color: inherit; }
 }
 
 .project-footer {
-  margin-top: auto;
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.project-demo {
+    width: 100%;
+}
+
+.project-demo h4 {
+    font-size: 14px;
+    color: var(--ivory);
+    margin-bottom: 8px;
+}
+
+.project-demo video {
+    width: 100%;
+    height: 180px;
+    display: block;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid rgba(201,168,76,0.2);
 }
 
 .tech-stack {
